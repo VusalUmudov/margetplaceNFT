@@ -1,0 +1,98 @@
+.navigation__page {
+    width: 100%;
+    height: 100vh;
+    .navigation__page-container {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        color: #FFFFFF;
+        margin: auto;
+        padding: auto;
+        width: 1050px;
+        height: 544px;
+        // margin-bottom: 70px;
+
+        .navigation__page-left {
+            width: 510px;
+            height: 544px;
+
+            .discover-digital-art {
+                font-weight: 600;
+                font-size: 67px;
+                line-height: 110%;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+
+            .navigation__page-text {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 160%;
+                text-transform: capitalize;
+                margin-bottom: 30px;
+            }
+
+            .navigation__page-btn {
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        transform: scale(0.95);
+
+                    }
+
+                    width: 224px;
+                    height: 60px;
+                    background: #A259FF;
+                    border-radius: 20px;
+                    border: none;
+
+                    svg {
+                        margin-right: 14px;
+                    }
+
+                    margin-bottom: 30px;
+                }
+            }
+
+            .navigation__page-info {
+                display: flex;
+
+                .info {
+                    margin-right: 30px;
+
+                    .bold {
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 140%;
+                        display: flex;
+                        align-items: center;
+                        text-transform: capitalize;
+                    }
+
+                    .small {
+                        font-weight: 400;
+                        font-size: 23.99px;
+                        line-height: 160%;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+
+        .navigation__page-right {
+
+            width: 510px;
+            height: 544px;
+        }
+    }
+}
